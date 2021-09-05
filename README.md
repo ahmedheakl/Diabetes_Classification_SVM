@@ -9,6 +9,12 @@
 **Model Build Info:** https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html?highlight=svc#sklearn.svm.SVC
 **What is BMI:** https://en.wikipedia.org/wiki/Body_mass_index
 
+# Code and Packages
+**Python Version:** 3.9.6
+**Packages:** Python, Flask, Scikit-learn, Numpy, Pandas, Matplotlib, HTML, CSS 
+**To run the server:** Write ```python app.py``` in your terminal in the same directory as the files and open the server url on your browser.
+
+
 ## Dataset
 The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
@@ -22,6 +28,11 @@ The datasets consists of several medical predictor variables and one target vari
 
 Here are some of the highlights about the data:
 
-![Alt text](https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/BMI_boxplot.png "BoxPlot for BMI Values")
-![Alt text](https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/data_means_groupedby_target_vals.PNG "Mean of the dataset")
+![alt text](https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/BMI_boxplot.png "BoxPlot for BMI Values")
+![alt text](https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/data_means_groupedby_target_vals.PNG "Mean of the dataset")
+
+## Data Preprossing and Model Build
+* Applied a ```StandardScaler``` model to normalize the data, and unit its range for better performance
+* Split the data into train and test with ```test_size=0.2```
+* 
 
