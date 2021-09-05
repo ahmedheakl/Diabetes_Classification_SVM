@@ -49,8 +49,8 @@ Here are some of the highlights about the data:
 Here is how the page looks:
 
 <p>
-<img width="250" height="400" src="https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/website_data.PNG">
-<img width="250" height="400" src="https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/yes_diabetes.PNG">
+<img width="300" height="400" src="https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/website_data.PNG">
+<img width="300" height="400" src="https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/yes_diabetes.PNG">
 </p>
 
 
