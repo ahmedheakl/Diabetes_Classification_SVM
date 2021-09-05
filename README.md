@@ -38,5 +38,17 @@ Here are some of the highlights about the data:
 ## Data Preprossing and Model Build
 * Applied a ```StandardScaler``` model to normalize the data, and unit its range for better performance
 * Split the data into train and test with ```test_size=0.2```
-* 
+* Fit the data to sklearn *Support Vector Machine Classifier* model. 
+* Tested the train and test accuracies to be 0.780 and 0.779
+* Saved the model to be used later by the web server
+
+## Flask Web Server
+* Built an ```index``` route with multiple text input to enter the data
+* Built a ```predict``` route. You can only access this route with a ```POST``` method
+
+Here is how the page looks:
+
+<img width="250" height="400" src="https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/website_data.PNG">
+<img width="250" height="400" src="https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/yes_diabetes.PNG">
+
 
