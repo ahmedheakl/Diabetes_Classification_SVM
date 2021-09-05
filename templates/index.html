@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Diabetes Classification
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    </head>
+    <body>
+        <div class='navbar navbar-dark bg-dark'>
+            <div class='container' >
+                <p class='navbar-brand'>Diabetes Classification Using Support Vector Machine</p>
+            </div>
+        </div>
+        <h1 class='h1_header'>Enter your data and press predict</h1>
+        <div class='content'>
+            <form id='upload_form' method='post' action='http://127.0.0.1:5000/predict'>
+                <input type='text' placeholder='Enter the number of your Pragnancies' name='preg' class='form-control'>
+                <input type='text' placeholder='Enter your Glucoes level' name='glucose' class='form-control'>
+                <input type='text' placeholder='Enter your Blood pressure' name='bloodpressure' class='form-control'>
+                <input type='text' placeholder='Enter your Skin Thickness' name='skin' class='form-control'>
+                <input type='text' placeholder='Enter your Insulin Level' name='insulin' class='form-control'>
+                <input type='text' placeholder='Enter your BMI' name='bmi' class='form-control'>
+                <input type='text' placeholder='Enter your DiabetesPedigreeFunction' name='pedifunc' class='form-control'>
+                <input type='text' placeholder='Enter your Age' name='Age' class='form-control'>
+                <button type='submit' class='btn btn-info btn-lg'>Predict!</button> 
+            </form>
+            {%if message%}
+            <div class='result_container'>
+                {% if color %}
+                    <span style="font-size: 40px; color: red;">
+                        {{message}}
+                    </span>
+                {% else %}
+                    <span style="font-size: 40px; color: green;">
+                        {{message}}
+                    </span>
+                {% endif %}
+            </div>
+            {%endif%}
+        </div>
+
+       
+    </body>
+</html>
