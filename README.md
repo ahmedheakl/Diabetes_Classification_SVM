@@ -18,7 +18,8 @@ The datasets consists of several medical predictor variables and one target vari
 *Note: THE DATA ONLY HAVE ```FEMALE SAMPLES```*
 
 ## EDA 
-###**You can find a full explaination of the data in the notebook above (*data_eda.ipynb*)**
+### You can find a full explaination of the data in the notebook above (*data_eda.ipynb*)
+
 Here are some of the highlights about the data:
 
 ![Alt text](https://github.com/ahmedheakl/Diabetes_Classification_SVM/blob/main/BMI_boxplot.png "BoxPlot for BMI Values")
