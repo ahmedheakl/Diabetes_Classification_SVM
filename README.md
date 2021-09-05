@@ -6,12 +6,16 @@
 
 ## Resources
 **Data Retrieved from:** https://www.kaggle.com/uciml/pima-indians-diabetes-database
+
 **Model Build Info:** https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html?highlight=svc#sklearn.svm.SVC
+
 **What is BMI:** https://en.wikipedia.org/wiki/Body_mass_index
 
 # Code and Packages
 **Python Version:** 3.9.6
+
 **Packages:** Python, Flask, Scikit-learn, Numpy, Pandas, Matplotlib, HTML, CSS 
+
 **To run the server:** Write ```python app.py``` in your terminal in the same directory as the files and open the server url on your browser.
 
 
